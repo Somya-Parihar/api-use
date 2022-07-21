@@ -4,10 +4,10 @@ const settings = {
 	"url": "https://dad-jokes.p.rapidapi.com/random/joke",
 	"method": "GET",
 	"headers": {
-		'X-RapidAPI-Key': 'b223f344e4msh676ae406cae4895p133982jsn00620b979240',
+		"X-RapidAPI-Key": "b223f344e4msh676ae406cae4895p133982jsn00620b979240",
 		"X-RapidAPI-Host": "dad-jokes.p.rapidapi.com"
 	}
-}
+};
 
 $.ajax(settings).done(function (response) {
 	console.log(response);
